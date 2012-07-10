@@ -1,15 +1,16 @@
 
-
 ## 1. deploy OpenStack from scrach.
 ## 部署All-in-one的OpenStack系统
 Only checkout and run it! 
 1. Setup a fresh Ubuntu Precise(12.04) OS. 
 
 2. Clone onestack:
-svn checkout http://onestack.googlecode.com/svn/trunk/ onestack-read-only
+##svn checkout http://onestack.googlecode.com/svn/trunk/ onestack-read-only
+git clone git://github.com/Kayven/OneStack.git
 
 3. run it.
-cd onestack-read-only/ && ./oneStack.sh
+#cd onestack-read-only/ && ./oneStack.sh
+cd OneStack && ./oneStack.sh
 
 or
 
